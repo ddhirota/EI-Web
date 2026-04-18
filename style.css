@@ -53,8 +53,8 @@ nav ul li a:hover {
 
 /* メインビジュアル */
 .hero {
-    background: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), 
-                 center/cover;
+    background: linear-gradient(rgba(33, 42, 53, 0.521), rgba(33, 42, 53, 0.7)), 
+    url("eishoTop2.jpg") center/cover no-repeat;
     height: 80vh;
     display: flex;
     flex-direction: column;
