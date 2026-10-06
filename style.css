@@ -119,7 +119,8 @@ h2::after {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
+    gap: 20px;
+    justify-items: center;
 }
 
 .card {
@@ -155,7 +156,40 @@ h2::after {
     margin-bottom: 15px;
     color: #8ac3ff;
 }
+.card2 {
+    background: #ffffffec;
+    padding:30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+    outline: 1px solid rgb(241, 241, 241);
+    width: 1200px
+}
 
+/**
+.card-title{
+    padding-left: 15px;
+    color:#c2e7f3;
+    background: #b9e6fbec;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+    outline: 1px solid rgb(241, 241, 241); 
+}
+
+.card-body{
+    margin:20p;
+    color:
+}
+*/
+.card2:hover {
+    transform: translateY(-10px);
+}
+
+.card2 h3 {
+    margin-bottom: 15px;
+    color: #8ac3ff;
+}
 /* 会社情報テーブル */
 .info-table {
     width: 100%;
