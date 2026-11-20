@@ -163,7 +163,12 @@ h2::after {
     box-shadow: 0 15px 30px rgba(0,0,0,0.08);
     transition: transform 0.3s;
     outline: 1px solid rgb(241, 241, 241);
-    width: 1200px
+    width: 100%;
+    min-width: 0;
+}
+
+#elecdiv .grid {
+    grid-template-columns: minmax(0, 1fr);
 }
 
 /**
