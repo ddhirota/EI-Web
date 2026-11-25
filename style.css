@@ -132,6 +132,11 @@ h2::after {
     outline: 1px solid rgb(241, 241, 241);
 }
 
+#area .grid .card {
+    width: 100%;
+    padding: 36px;
+}
+
 /**
 .card-title{
     padding-left: 15px;
